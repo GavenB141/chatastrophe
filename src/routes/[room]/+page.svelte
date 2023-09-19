@@ -1,6 +1,6 @@
 <script lang=ts>
     import { onDestroy, onMount } from "svelte";
-    import type { User, Message } from "../../../server";
+    import type { User, Message } from "../../../serversrc";
     import UserList from "./UserList.svelte";
     import Messages from "./Messages.svelte";
     import { fade } from "svelte/transition";

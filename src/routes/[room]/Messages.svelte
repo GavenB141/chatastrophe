@@ -1,5 +1,5 @@
 <script lang=ts>
-    import type { User, Message } from "../../../server";
+    import type { User, Message } from "../../../serversrc";
 
     export let messages:Message[] = [];
 
