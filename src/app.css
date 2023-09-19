@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("/fonts/Ubuntu/UbuntuNerdFont-Regular.ttf");
+}
+  
+body {
+    color: white;
+    background-color: rgb(24 24 36);
+    font-family: "ubuntu";
+
+    height: 100vh;
+}
+
+button {
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+input {
+    background-color: rgb(30 30 45);
+    padding: 8px;
+    padding-left: 8px;
+
+    border-color: rgba(255,255,255,0.5);
+    border-width: 2px;
+    border-radius: 8px;
+
+    font-size: 20px;
+}
