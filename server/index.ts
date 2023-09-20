@@ -87,5 +87,8 @@ Bun.serve<User>({
             ws.close();
         }
     },
+    tls: {
+        
+    },
     port:8080
 });
